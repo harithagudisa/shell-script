@@ -34,9 +34,6 @@ done <<< $DISK_USAGE
 
 echo "message: $message"
 
-   echo "output: $line"
-done <<< $DISK_USAGE
-
- awk '{print$6}' | cut -d % -f1
+  
 
     
